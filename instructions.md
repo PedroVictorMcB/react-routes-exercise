@@ -3,6 +3,10 @@
 1 - Criar projeto react:  
 - npx create-react-app "nome do projeto"    
 Aqui criamos o projeto com todas suas dependências e scripts e a pasta root.  
+- Não consegui criar passando o npx:  
+Use o comando npm i create-react-app para instalar a biblioteca, depois crie  
+o projeto com o comando já citado do npx. Lembre-se de entrar dentro do  
+diretório que você acabou de criar ao passar o comando npx.  
   
 2 - Limpar o projeto para utilizar apenas o essencial:  
 Retirei:  
