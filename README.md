@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## Objetivo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório tem como objetivo mostrar como criar rotas usando o  
+Browser-Router da lib react-router-dom. Portanto não possui arquivos .css,  
+pois o inuito é mostrar a implementação das rotas na SPA.  
+  
 
-## Available Scripts
 
-In the project directory, you can run:
+### Conectando Routes no React
 
-### `npm start`
+1 - Criar projeto react:  
+- npx create-react-app "nome do projeto"    
+Aqui criamos o projeto com todas suas dependências e scripts e a pasta root.  
+- Não consegui criar passando o npx:  
+Use o comando npm i create-react-app para instalar a biblioteca, depois crie  
+o projeto com o comando já citado do npx. Lembre-se de entrar dentro do  
+diretório que você acabou de criar ao passar o comando npx.  
+  
+2 - Limpar o projeto para utilizar apenas o essencial:  
+Retirei:  
+- Arquivos App  
+- Index.css  
+- logo.svg  
+  
+3 - Instalar a lib react-router-dom usando npm i react-router-dom  
+  
+4 - Criar diretórios relacionados aos componentes e páginas:  
+- Criei diretório componentes e dentro criei os componentes que serão utilizados  
+para compor a SPA(Single Page Application)  
+- Criei diretório relacionado a página para receber o componente Layout, que será a main-page.  
+  
+5 - Implementar Rotas:  
+- Criei o ambiente de rotas em index.js.  
+- Fiz os importes necessários e usei os compoentens necessário para criar as rotas  
+- Processo demonstrado entre as linhas 10:16  
+- Em pages/Layout.jsx importei Outlet e usei-o em main  
+  
+#### Resumo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este repositório tem o único intuito de mostrar como criar rotas usando  
+o Browser-Router, portanto não possui css.
