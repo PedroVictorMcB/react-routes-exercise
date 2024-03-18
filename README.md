@@ -35,7 +35,3 @@ para compor a SPA(Single Page Application)
 - Processo demonstrado entre as linhas 10:16  
 - Em pages/Layout.jsx importei Outlet e usei-o em main  
   
-#### Resumo:
-
-Este repositório tem o único intuito de mostrar como criar rotas usando  
-o Browser-Router, portanto não possui css.
